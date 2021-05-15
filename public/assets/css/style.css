@@ -139,12 +139,80 @@
 
 .section-one-column{
     margin-top:70px;
-    margin-bottom: 100px;
+   
 }
 
 
+.background-parallax-bottom{
+    margin-top: 70px;
+    background-image: url("../../media/img/bg-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+    flex-direction: column;
 
+}
 
+.background-parallax-bottom .container {
+   max-width: 750px;
+
+}   
+
+.background-parallax-bottom .form-control{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.background-parallax-bottom .form-control::placeholder{
+    color: #000;
+}
+
+.background-parallax-bottom textarea{
+    min-height: 100px;
+}
+
+.background-parallax-bottom p{
+    max-width: 725px;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.background-parallax-bottom h2{
+    font-size: 2.5em;
+    text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+}
+
+footer{
+  
+    background-color:#F2F2F2;
+}
+.section-footer{
+    flex-direction: column;
+    padding-top: 50px;
+    margin-top:50px;
+    align-items: center;
+   
+}
+
+.section-footer span{
+   padding-top: 20px;
+   text-align: center;
+   width: 100%;
+   border-top: solid 1px #CCC;
+   font-size: 1.2em;
+}
+
+.section-footer p{
+    padding: 20px;
+    max-width: 50%;
+    text-align: center;
+  
+}
 
 @media only screen and (max-width: 767px){
 
@@ -170,6 +238,10 @@
 
     .section-four-column .card-body{
         min-height: auto;
+    }
+
+    .section-footer p{
+        max-width: 100%;
     }
 
 
